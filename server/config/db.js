@@ -1,4 +1,5 @@
 module.exports = {
   //local MongoDB deployment ->
-  "URI": "mongodb://localhost/books229"
+  //"URI": "mongodb://localhost/books229"
+  "URI" : process.env.URI
 };
